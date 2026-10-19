@@ -41,3 +41,13 @@
 - 用户原意：例子不要用版权文献。
 - 执行边界：README、spec、Skill 及其 references 中的示例改用中性描述，不点名受版权保护的文献、书名或具体论文。
 - 当前处理：README / spec / `SKILL.md` / `references/lit-acquisition.md` 中的版权文献名称已中性化；`docs/research/scihub-human-check-test.md` 属历史实测留档，未改写。
+
+## R-006 — GitHub 推送必须使用 repo 所有者账号
+
+- 日期：2026-10-19
+- 状态：accepted
+- 用户原意：推 GitHub 要用“我的那个账号”，先搞清楚 repo 所有者账号是什么，别用错。
+- 执行边界：commit 的 author/committer 与推送凭据都必须是 repo 所有者账号；不得沿用本机默认 git 身份。
+- 当前证据：repo `math-fournity/SCI-Ready` 所有者 = `math-fournity`；远端 HEAD `b7b0a51` 的
+  `author.login` 与 `committer.login` 均已核验为 `math-fournity`，git author 为
+  `Math Fournity <math-fournity@proton.me>`。

@@ -1,4 +1,4 @@
-== acceptance run 2026-10-19T18:30:37Z ==
+== acceptance run 2026-10-19T19:15:12Z ==
 PASS | A1 mineru CLI 4.0.x
 PASS | A2 doclib server running
 PASS | A3 remote parse service healthy
@@ -6,23 +6,23 @@ PASS | A4 access_level=registered
 PASS | A5 remote parse
 {
   "parse": {
-    "sha256": "537bc73df512f6f7f5202610003b0cc0db0b70937cee8160aae56792cce2a9ad",
-    "short_id": "537bc73",
+    "sha256": "a89b509361fa6a7104cd280d212f8790b41bb849f2d8a3da46f4e9d8411d7554",
+    "short_id": "a89b509",
     "tier": "standard",
     "page_range": "1",
     "status": "done",
     "cache_hit": false,
     "wait_parse_ids": [
-      74
+      78
     ],
     "created_parse_ids": [
-      74
+      78
     ],
     "reused_parse_ids": [],
     "tip": null
   },
   "content": {
-    "sha256": "537bc73df512f6f7f5202
+    "sha256": "a89b509361fa6a7104cd2
 PASS | A6 read by locator
 PASS | A7 parse_large.py page-range + large limit
 PASS | A8 JSON control-flow contract

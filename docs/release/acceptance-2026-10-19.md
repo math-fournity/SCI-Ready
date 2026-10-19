@@ -35,6 +35,12 @@ bash docs/release/run-acceptance.sh 2>&1 | tee docs/release/acceptance-output-20
 - `docs/browseros-mcp/` 等第三方快照的时效性未在本文件中更新（按
   `docs/operations/external-docs-refresh.md` 由用户授权后刷新）。
 
-## 4. 结论
+## 4. 复跑记录
+
+推送后在同一次工作会话内复跑一次，用于排除缓存导致的假阳性：输出归档在
+`docs/release/acceptance-output-2026-10-19.txt`。复跑同样 8/8 PASS，且 A5 的 `short_id` 与首跑不同、
+`cache_hit: false`，说明通过的是真实远端解析而非缓存结果。
+
+## 5. 结论
 
 A1–A8、A10 由本次实际执行证明；A9 为已知未闭合阻塞，不在本次推送范围内以“已完成”表述。
