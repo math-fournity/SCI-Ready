@@ -29,8 +29,13 @@
 
 ## Next action
 
-按既定方案执行首次 GitHub 推送：以 `math-fournity` 账号配置 remote、只提交公开资产（排除 `dev-notes/`）、
-推送到 `math-fournity/SCI-Ready` 的 `main`。推送后复核远端文件清单与验收证据可达性。
+已推送到 `math-fournity/SCI-Ready` 的 `main`：
+
+- 远端 34 个 blob，`dev-notes/` 为 0，secret/PII 扫描为 NONE；
+- 5 条提交的 author/committer 均已核验为 `math-fournity`（另有一条建仓时 GitHub web 自动生成的
+  `Initial commit`，committer 为 `web-flow`）；
+- 远端树与本地一致；验收证据（A1–A8，8/8 PASS，含非缓存复跑）在远端可读；
+- 未向华为云 / 小红书后台提交（按用户要求）。
 
 ## History
 
