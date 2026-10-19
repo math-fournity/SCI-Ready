@@ -1,0 +1,33 @@
+# IDE 内部目录(本地工作区状态,不进公开 repo)
+.arts/
+
+# CodeArts/IDE 本地配置与状态(非本项目交付物)
+.codeartsdoer/
+
+# 本地 Agent 会话归档:含本机路径、设备 serial 与全局治理内容,绝不进入公开历史
+dev-notes/
+
+# 版权论文证据文件:仅本地留档,推公开仓库 = 再分发受版权保护的论文(法务红线)
+# 报告正文(docs/research/scihub-human-check-test.md)引用其路径即可,文件本身不上传
+docs/research/evidence/*.pdf
+# Sci-Hub 实测的浏览器截图:MCP 兜底脚本(mcp_browseros_fallback.py)可公开,
+# 截图仅作本地留档,不进公开 repo
+docs/research/evidence/*.jpg
+
+# 本机与凭据相关:任何情况下都不进公开 repo
+.env
+.env.*
+*.pem
+*.key
+*_rsa
+*_ed25519
+MinerU/config.json
+.mineru/doclib.db
+
+# 本地运行产物
+*.log
+.DS_Store
+
+# macOS
+.DS_Store
+dev-notes

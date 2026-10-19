@@ -1,0 +1,33 @@
+== acceptance run 2026-10-19T18:30:37Z ==
+PASS | A1 mineru CLI 4.0.x
+PASS | A2 doclib server running
+PASS | A3 remote parse service healthy
+PASS | A4 access_level=registered
+PASS | A5 remote parse
+{
+  "parse": {
+    "sha256": "537bc73df512f6f7f5202610003b0cc0db0b70937cee8160aae56792cce2a9ad",
+    "short_id": "537bc73",
+    "tier": "standard",
+    "page_range": "1",
+    "status": "done",
+    "cache_hit": false,
+    "wait_parse_ids": [
+      74
+    ],
+    "created_parse_ids": [
+      74
+    ],
+    "reused_parse_ids": [],
+    "tip": null
+  },
+  "content": {
+    "sha256": "537bc73df512f6f7f5202
+PASS | A6 read by locator
+PASS | A7 parse_large.py page-range + large limit
+PASS | A8 JSON control-flow contract
+== summary: PASS=8 FAIL=0 ==
+[rm-trash] 这不是删除：/usr/bin/trash 把文件移入废纸篓，Finder「放回原处」可还原。
+[rm-trash] 本次：1 项 → 废纸篓；磁盘空间不释放（清倒废纸篓才回收）。
+[rm-trash] 已接受但对「移动」无实质作用：-r
+[rm-trash] 真要删除：/bin/rm …（不可恢复，先与用户确认）｜能力表：rm --help｜静默：RM_TRASH_BANNER=never

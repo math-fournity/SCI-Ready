@@ -1,0 +1,39 @@
+# BrowserOS Documentation
+
+- [BrowserOS neo](https://docs.browseros.com/index.md): The browser your AI can actually use. It's your browser, your logins, your control.
+- [How BrowserOS neo works](https://docs.browseros.com/neo/how-it-works.md): A step-by-step walkthrough from download to your first AI-driven browsing session.
+- [Install BrowserOS neo](https://docs.browseros.com/neo/install.md): Download and install BrowserOS neo on macOS or Windows.
+- [Connect your agent](https://docs.browseros.com/neo/mcp/index.md): One-click setup for the AI tools we support. A Claude Desktop extension. A copyable endpoint URL for everything else.
+- [Claude Desktop and Cowork](https://docs.browseros.com/neo/mcp/claude-desktop.md): Give Claude Desktop, and Cowork inside it, a real browser via a one-file extension.
+- [Manual URL setup](https://docs.browseros.com/neo/mcp/manual.md): Connect BrowserOS neo to any MCP-compatible AI tool by hand with the endpoint URL, and add the BrowserOS neo skill so your agent uses it well.
+- [Your dashboard](https://docs.browseros.com/neo/cockpit.md): The new-tab dashboard that shows what your AI is doing now and what it did before.
+- [Your tabs and agent tabs](https://docs.browseros.com/neo/tabs-and-isolation.md): How BrowserOS neo groups your tabs and your AI's tabs so you always know what's what.
+- [Audit and replay](https://docs.browseros.com/neo/audit-and-replay.md): Every agent step is on your disk. Search, click through, and replay any session like a video. Nothing leaves your machine.
+- [Privacy and data](https://docs.browseros.com/neo/privacy.md): Everything BrowserOS neo records about your work stays on your computer. Anonymous product events help us improve the app, and they're opt-out. This page walks through both.
+- [Changelog](https://docs.browseros.com/changelog.md): What's new in BrowserOS
+- [Contributing to BrowserOS](https://docs.browseros.com/contributing.md): Guide to contributing to BrowserOS
+- [BrowserOS](https://docs.browseros.com/browseros/index.md): The open-source AI browser that turns your words into actions
+- [Getting Started](https://docs.browseros.com/browseros/onboarding.md): Set up BrowserOS in 2 minutes
+- [Update BrowserOS](https://docs.browseros.com/browseros/update/index.md): How to update to the latest version of BrowserOS
+- [Bring Your Own LLM](https://docs.browseros.com/browseros/features/bring-your-own-llm.md): Connect your own AI models to BrowserOS
+- [ChatGPT Pro / Plus](https://docs.browseros.com/browseros/features/chatgpt-pro-oauth.md): Use your ChatGPT subscription to power BrowserOS
+- [GitHub Copilot](https://docs.browseros.com/browseros/features/github-copilot-oauth.md): Use your GitHub Copilot subscription to power BrowserOS
+- [Bring Your Local Model](https://docs.browseros.com/browseros/features/local-models.md): Run AI models locally with Ollama or LM Studio for free, private, offline use
+- [Scheduled Tasks](https://docs.browseros.com/browseros/features/scheduled-tasks.md): Run the BrowserOS agent automatically on a schedule
+- [Cowork](https://docs.browseros.com/browseros/features/cowork.md): Give the agent controlled access to local files and commands alongside browser automation
+- [Connect Apps](https://docs.browseros.com/browseros/features/connect-mcps.md): Connect 40+ apps to BrowserOS so the assistant can work with your email, calendar, projects, and more
+- [Smart Nudges](https://docs.browseros.com/browseros/features/smart-nudges.md): BrowserOS suggests app connections and task scheduling at the right moment
+- [MCP Clients (Claude Code, OpenClaw)](https://docs.browseros.com/browseros/features/use-with-claude-code.md): Control your browser and 40+ apps from Claude Code, OpenClaw, Gemini CLI, or any MCP client
+- [Sync to Cloud](https://docs.browseros.com/browseros/features/sync-to-cloud.md): Sign in to sync your conversations, settings, and automations across all your devices
+- [Ad Blocking](https://docs.browseros.com/browseros/features/ad-blocking.md): BrowserOS supports full ad blocking with uBlock Origin
+- [Vertical Tabs](https://docs.browseros.com/browseros/features/vertical-tabs.md): Move your tabs to the side for a cleaner, more organized browsing experience
+- [Chrome DevTools MCP](https://docs.browseros.com/browseros/comparisons/chrome-devtools-mcp.md): A developer-focused comparison of BrowserOS MCP and Chrome DevTools MCP for browser automation
+- [Claude Cowork](https://docs.browseros.com/browseros/comparisons/claude-cowork.md): How BrowserOS Cowork compares to Claude Cowork for getting real work done with AI
+- [OpenClaw](https://docs.browseros.com/browseros/comparisons/openclaw.md): How BrowserOS compares to OpenClaw for everyday AI assistance
+- [n8n Integration](https://docs.browseros.com/browseros/integrations/n8n.md): Build AI workflows that control your browser
+- [Has Agent Crashed?](https://docs.browseros.com/browseros/troubleshooting/connection-issues.md): How to fix connection issues when the BrowserOS agent is not responding
+- [Changelog](https://docs.browseros.com/browseros/changelog.md): What's new in BrowserOS
+- [Contributing to BrowserOS](https://docs.browseros.com/browseros/contributing.md): Guide to contributing to BrowserOS
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.
