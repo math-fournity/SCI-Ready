@@ -7,7 +7,7 @@
 - 比赛页面：https://developer.huaweicloud.com/competition/information/1300000350/introduction
 - 报名截止：2026-11-13
 - 奖金总额：¥500,000
-- 核心交付物：**MinerU 全链路文献处理 Skill**（文献获取 → 解析 → 视觉审计，v1.1 已完成，持续打磨中）
+- 核心交付物：**MinerU 全链路文献处理 Skill**（文献获取 → 解析 → 视觉审计，v1.1-draft，持续打磨中；交付状态以 `feature-list.md` 为准）
 
 ### 参赛硬性门槛
 
@@ -30,7 +30,7 @@ CodeArts-WorkSpace/
 │   └── mcp/mcp_settings.json          ← MCP 配置（含 browseros-neo）
 ├── docs/
 │   ├── spec/
-│   │   └── mineru-skill-spec.md       ← MinerU Skill 功能规格说明（v1.1，含 F11/F12/F13）
+│   │   └── mineru-skill-spec.md       ← MinerU Skill 功能规格说明（v1.1-draft，含 F11/F12/F13）
 │   ├── research/
 │   │   ├── scihub-human-check-test.md ← Sci-Hub 人机检测实测报告（2026-10-18）
 │   │   └── evidence/                  ← 实测证据（截图/MCP 兜底脚本；PDF 已 gitignore）
@@ -44,7 +44,7 @@ CodeArts-WorkSpace/
 
 | Skill | 路径 | 状态 | 说明 |
 |-------|------|------|------|
-| **mineru** | 真源 `~/.agents/skills/mineru/`；CodeArts 入口 `~/.codeartsdoer/skills/mineru/` | v1.1 全链路 | MinerU 4.x CLI 文献处理 Skill — **获取**（arXiv→DOI→Unpaywall→图书馆→GDZ 多渠道，合法渠道优先）、**解析**（PDF/Word/PPT/Excel 转 Markdown，OCR，大 PDF 分块 >200页）、**审计**（视觉逐页验证，单代理或 AgentTeam 并发舰队）。六个客户端入口共享同一真源：Codex、Claude Code、ZCode、Devin、OpenCode、CodeArts；CodeArts evolve 另有文件级硬链接。参考文献含 6 份：`references/文献渠道.md` 是文献渠道活登记处（找文献前先查它）。 |
+| **mineru** | 真源 `~/.agents/skills/mineru/`；CodeArts 入口 `~/.codeartsdoer/skills/mineru/` | v1.1-draft | MinerU 4.x CLI 文献处理 Skill — **获取**（arXiv→DOI→Unpaywall→图书馆→GDZ 多渠道，合法渠道优先）、**解析**（PDF/Word/PPT/Excel 转 Markdown，OCR，大 PDF 分块 >200页）、**审计**（视觉逐页验证，单代理或 AgentTeam 并发舰队）。六个客户端入口共享同一真源：Codex、Claude Code、ZCode、Devin、OpenCode、CodeArts；CodeArts evolve 另有文件级硬链接。参考文献含 6 份：`references/文献渠道.md` 是文献渠道活登记处（找文献前先查它）。 |
 | **codearts-config-guide** | `~/.codeartsdoer/skills/codearts-config-guide/` | 已完成 | CodeArts Agent 配置指南索引 Skill — 15 大类别，65 篇本地落盘文档，每篇含在线权威地址 |
 
 ### MinerU Skill 关键技术细节

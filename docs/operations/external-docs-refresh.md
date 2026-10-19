@@ -22,7 +22,7 @@
 | `docs/competition/xiaohongshu-skill-competition.md` | https://developer.huaweicloud.com/competition/information/1300000350/introduction | 2026-10-18 | 中（赛程、奖项、报名状态） | 重新抓取正文并更新 `抓取时间` |
 | `docs/browseros-mcp/*.html`、`*.md`（16 篇） | https://docs.browseros.com/ 、https://support.huaweicloud.com/ （CodeArts Agent 文档） | 2026-10-18 | 中高（产品迭代频繁） | 逐篇重新保存并更新抓取时间 |
 | `~/.agents/skills/mineru/references/official-manual.md` | https://github.com/opendatalab/MinerU/blob/master/skills/mineru/SKILL.md | 2026-09-29 | 高（上游随版本演进） | 重新拉取 master 分支全文 |
-| `~/.agents/skills/mineru/references/output-schema.md` | 本机 `/Users/aurolafly/MinerU` 实际输出目录契约 | 2026-09-29 | 中（随 App 版本变化） | 重新只读核验目录与 schema |
+| `~/.agents/skills/mineru/references/output-schema.md` | 本机 MinerU App 输出目录（`MINERU_HOME` 下的 history 目录）实际契约 | 2026-09-29 | 中（随 App 版本变化） | 重新只读核验目录与 schema |
 
 更新后必须同步更新表中的 `抓取时间`，并在 commit message 写明更新了哪几项。
 
